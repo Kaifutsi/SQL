@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+<body>
+    <h3>Rekisteröinti</h3>
+    <form action="kayttajatunnistus.php" method="post">
+        Käyttäjätunnus: <input name="kayttaja_tunnus" type="text"><br><br>
+        Salasana: <input name="kayttaja_salasana" type="password"><br><br>
+        Sähköpostiosoite: <input name="kayttaja_sahkoposti" type="text"><br><br>
+        <input type="hidden" name="lomaketunnistin" value="0">
+        Kirjoita numero 6 kenttään kirjaimin: <input name="varmistus" type="text"><br><br>
+        <input type="submit" value="Lähetä">
+    </form>
+    <p>Mikäli sinulla on jo käyttäjätili olemassa, siirry <a href="kirjautuminen.html">kirjautumaan palveluun</a>.</p>    
+</body>
+</html>
